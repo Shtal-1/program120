@@ -13,14 +13,6 @@ typedef struct node ** PPNODE;
 
 void InsertFirst(PPNODE head, int no)
 {
-    // Allocate memory for node (dynamically)
-    // Initialise that node
-
-    // Check whether LL is empty or not
-    // If LL is empty then new node is the first node so update its address in first pointer through head
-
-    // If LL is not empty then store the address of first node in the next pointer of our new node
-    // update the first pointer thruogh head
     PNODE newn = NULL;
 
     newn = (PNODE)malloc(sizeof(NODE));     // newn = (struct node *)malloc(12);
@@ -41,16 +33,6 @@ void InsertFirst(PPNODE head, int no)
 
 void InsertLast(PPNODE head, int no)
 {
-    // Allocate memory for node (dynamically)
-    // Initialise that node
-
-    // Check whether LL is empty or not
-    // If LL is empty then new node is the first node so update its address in first pointer through head
-
-    // If LL is not empty then
-    // travel till last node of LL
-    // store address of new node in the next pointer of last node
-
     PNODE newn = NULL;
 
     newn = (PNODE)malloc(sizeof(NODE));     // newn = (struct node *)malloc(12);
